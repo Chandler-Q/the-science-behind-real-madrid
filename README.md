@@ -25,7 +25,12 @@ The project applies **network science** and **data visualization** to explore ho
 - Visualizations:
   - Full-match passing networks  
   - Shot maps with assists and xG values (⚽ icons displayed via `football_icon.png`)  
-  - Passing start heatmaps  
+  - Passing start heatmaps
+  - Best Trio Offensive Efficiency (xG) Comparison
+  - MVP Score Distribution
+  - Cumulative xG timelines
+  - Penalty shot placement distribution
+  - Network metrics trend lines
 
 ---
 
