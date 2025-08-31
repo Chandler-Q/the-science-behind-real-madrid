@@ -24,7 +24,6 @@ The project applies **network science** and **data visualization** to explore ho
   - Expected Goals (xG) timelines  
 - Visualizations:
   - Full-match passing networks  
-  - Pre-goal (−5 min) sub-networks  
   - Shot maps with assists and xG values (⚽ icons displayed via `football_icon.png`)  
   - Passing start heatmaps  
 
