@@ -41,14 +41,16 @@ pip install -r requirements.txt
 
 ## ▶️ Usage
 1. Download [StatsBomb Open Data](https://github.com/statsbomb/open-data).  
-2. Place required JSON files under `data/`:  
+2. Place required JSON files under `data/`:
+   - Competions: `competitions.json`
+   - Matches: `matches/16/1.json`, `matches/16/2.json`, `matches/16/27.json`
    - Events: `events/18243.json`, `events/18244.json`, `events/18245.json`  
    - Lineups: `lineups/18243.json`, `lineups/18244.json`, `lineups/18245.json`  
-3. Launch Jupyter Notebook:  
+4. Launch Jupyter Notebook:  
    ```bash
    jupyter notebook RealMadrid_PassingNetworks_Analysis.ipynb
    ```
-4. Run all cells to reproduce results.  
+5. Run all cells to reproduce results.  
 
 ---
 
