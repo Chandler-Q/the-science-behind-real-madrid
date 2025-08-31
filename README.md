@@ -9,7 +9,9 @@ The project applies **network science** and **data visualization** to explore ho
 ## 📂 Repository Contents
 - `RealMadrid_PassingNetworks_Analysis.ipynb` → Main notebook with complete analysis  
 - `requirements.txt` → Python dependencies  
-- `figures/` (optional) → Directory for saved output plots  
+- `images/` → Team logos used in visualizations  
+- `data/` → StatsBomb JSON event & lineup data (already included)  
+- `football_icon.png` → Icon used in shot map visualizations to mark goals  
 
 ---
 
@@ -23,7 +25,7 @@ The project applies **network science** and **data visualization** to explore ho
 - Visualizations:
   - Full-match passing networks  
   - Pre-goal (−5 min) sub-networks  
-  - Shot maps with assists and xG values  
+  - Shot maps with assists and xG values (⚽ icons displayed via `football_icon.png`)  
   - Passing start heatmaps  
 
 ---
@@ -40,17 +42,16 @@ pip install -r requirements.txt
 ---
 
 ## ▶️ Usage
-1. Download [StatsBomb Open Data](https://github.com/statsbomb/open-data).  
-2. Place required JSON files under `data/`:
-   - Competions: `competitions.json`
-   - Matches: `matches/16/1.json`, `matches/16/2.json`, `matches/16/27.json`
-   - Events: `events/18243.json`, `events/18244.json`, `events/18245.json`  
-   - Lineups: `lineups/18243.json`, `lineups/18244.json`, `lineups/18245.json`  
-4. Launch Jupyter Notebook:  
+1. Launch Jupyter Notebook:
    ```bash
    jupyter notebook RealMadrid_PassingNetworks_Analysis.ipynb
    ```
-5. Run all cells to reproduce results.  
+
+2. Run all cells to reproduce the analysis.  
+
+   - The required **StatsBomb event & lineup JSON files** are already provided in the `data/` folder.  
+   - Team logos are included under `images/` and will be automatically displayed in the visualizations.  
+   - The file `football_icon.png` is used to render goal icons in shot maps.  
 
 ---
 
@@ -63,4 +64,4 @@ pip install -r requirements.txt
 
 ## 📜 License
 - Notebook & code: MIT License  
-- Data: StatsBomb Open Data, CC BY-NC-SA 4.0
+- Data: StatsBomb Open Data, CC BY-NC-SA 4.0  
